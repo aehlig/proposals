@@ -26,8 +26,8 @@ with additional information on how to use that target correctly.
 
 The providers currently in use focus on how to _use_ a target (e.g.,
 visible header files, link order). IDEs, on the other hand, need
-information on how a target _was built_: what have been the source
-files, with which flags were they compiled, etc. Therefore, IDEs
+information on how a target _was built_: what the source files
+were, with which flags were they compiled, etc. Therefore, IDEs
 currently have to resort to inspecting the rule attributes; while
 this works well for known rules, it breaks down for custom rules,
 even though they might be for a language known to the IDE.
